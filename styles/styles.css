@@ -96,6 +96,11 @@ main {
     transition: transform 0.2s;
 }
 
+.favorite-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .favorite-item:hover {
     transform: scale(1.05);
 }
